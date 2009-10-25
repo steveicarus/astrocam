@@ -1,0 +1,40 @@
+
+Design Notes for the AstroCam Sensor Module
+
+-- RJ-45 socket
+
+Choose an RJ-45 socket with shielding and two integrated GREEN
+LEDs. One of the LEDs is turned on when the SerDes receiver achieves
+lock, and the other turns on when the FPGA DONE signal goes high. This
+should give an easy visual indication to the user that the cable
+connection is solid and the units are linked together. And example of
+a viable part is the EDAC A20 series of connectors.
+
+-- DS92LV16 SerDes
+
+The SerDes in the sensor module uses the 40MHz sensor clock for TCLK
+and REFCLK. That obviously means that the data path is 40MHz in both
+directions. Note that the RCLK that clocks the data that the SerDes
+receives from the wire is not necessarily the same as the REFCLK (or
+the system clock) but is close. Still, this is the clock that the FPGA
+must used to clock data from the SerDes into the FPGA.
+
+The /LOCK signal from the SerDes is fed back to the SYNC input. This
+causes the transmit side to automatically force a resync as long as
+the receiver is not locked. So when the cable is first hooked up, the
+SerDes /LOCK output is high, forcing it to SYNC transmit
+synchronization words back. This continues until the receiver locks.
+
+-- FPGA Reboot
+
+The PROG_B input to the FPGA is connected to one of the pairs of the
+connecttor, and also through a pulldown to ground. If the cable is
+removed, the FPGA PROG_B falls low, forcing the FPGA into reset. It is
+also possible for the remote to pull the PROG_B low to explicitly
+reset the FPGA.
+
+Once reset, the FPGA M[2:0] bits are pulled to select Slave Parallel
+mode. The D[7:0] input are conveniently connected to the SerDes, along
+with the CSI_B and RDWR_B bits. The CCLK is connected directly to the
+RCLK (receiver clock) from the SerDes. The remote programs the FPGA by
+writing configuration words through the SerDes to the FPGA.
