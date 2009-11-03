@@ -1,0 +1,308 @@
+v 20081231 1
+P 100 5800 400 5800 1 0 0
+{
+T 100 5800 5 10 0 0 0 0 1
+pintype=in
+T 455 5795 9 10 1 1 0 0 1
+pinlabel=GPIO94_CAM_HS
+T 305 5845 5 10 1 1 0 6 1
+pinnumber=1
+T 100 5800 5 10 0 0 0 0 1
+pinseq=1
+}
+P 100 5600 400 5600 1 0 0
+{
+T 100 5600 5 10 0 0 0 0 1
+pintype=in
+T 455 5595 9 10 1 1 0 0 1
+pinlabel=GPIO95_CAM_VS
+T 305 5645 5 10 1 1 0 6 1
+pinnumber=2
+T 100 5600 5 10 0 0 0 0 1
+pinseq=2
+}
+P 100 5400 400 5400 1 0 0
+{
+T 100 5400 5 10 0 0 0 0 1
+pintype=io
+T 455 5395 9 10 1 1 0 0 1
+pinlabel=GPIO96_CAM_XCLKA
+T 305 5445 5 10 1 1 0 6 1
+pinnumber=3
+T 100 5400 5 10 0 0 0 0 1
+pinseq=3
+}
+P 100 5200 400 5200 1 0 0
+{
+T 100 5200 5 10 0 0 0 0 1
+pintype=out
+T 455 5195 9 10 1 1 0 0 1
+pinlabel=GPIO97_CAM_PCLK
+T 305 5245 5 10 1 1 0 6 1
+pinnumber=4
+T 100 5200 5 10 0 0 0 0 1
+pinseq=4
+}
+P 100 5000 400 5000 1 0 0
+{
+T 100 5000 5 10 0 0 0 0 1
+pintype=io
+T 455 4995 9 10 1 1 0 0 1
+pinlabel=GPIO98_CAM_FLD
+T 305 5045 5 10 1 1 0 6 1
+pinnumber=5
+T 100 5000 5 10 0 0 0 0 1
+pinseq=5
+}
+P 100 4800 400 4800 1 0 0
+{
+T 100 4800 5 10 0 0 0 0 1
+pintype=io
+T 455 4795 9 10 1 1 0 0 1
+pinlabel=GPIO99_CAM_D0
+T 305 4845 5 10 1 1 0 6 1
+pinnumber=6
+T 100 4800 5 10 0 0 0 0 1
+pinseq=6
+}
+P 100 4600 400 4600 1 0 0
+{
+T 100 4600 5 10 0 0 0 0 1
+pintype=io
+T 455 4595 9 10 1 1 0 0 1
+pinlabel=GPIO100_CAM_D1
+T 305 4645 5 10 1 1 0 6 1
+pinnumber=7
+T 100 4600 5 10 0 0 0 0 1
+pinseq=7
+}
+P 100 4400 400 4400 1 0 0
+{
+T 100 4400 5 10 0 0 0 0 1
+pintype=io
+T 455 4395 9 10 1 1 0 0 1
+pinlabel=GPIO101_CAM_02
+T 305 4445 5 10 1 1 0 6 1
+pinnumber=8
+T 100 4400 5 10 0 0 0 0 1
+pinseq=8
+}
+P 100 4200 400 4200 1 0 0
+{
+T 100 4200 5 10 0 0 0 0 1
+pintype=io
+T 455 4195 9 10 1 1 0 0 1
+pinlabel=GPIO102_CM_D3
+T 305 4245 5 10 1 1 0 6 1
+pinnumber=9
+T 100 4200 5 10 0 0 0 0 1
+pinseq=9
+}
+P 100 4000 400 4000 1 0 0
+{
+T 100 4000 5 10 0 0 0 0 1
+pintype=io
+T 455 3995 9 10 1 1 0 0 1
+pinlabel=GPIO103_CIF_DD04
+T 305 4045 5 10 1 1 0 6 1
+pinnumber=10
+T 100 4000 5 10 0 0 0 0 1
+pinseq=10
+}
+P 100 3800 400 3800 1 0 0
+{
+T 100 3800 5 10 0 0 0 0 1
+pintype=io
+T 455 3795 9 10 1 1 0 0 1
+pinlabel=GPIO104_CIF_DD05
+T 305 3845 5 10 1 1 0 6 1
+pinnumber=11
+T 100 3800 5 10 0 0 0 0 1
+pinseq=11
+}
+P 100 3600 400 3600 1 0 0
+{
+T 100 3600 5 10 0 0 0 0 1
+pintype=io
+T 455 3595 9 10 1 1 0 0 1
+pinlabel=GPIO105_CAM_D6
+T 305 3645 5 10 1 1 0 6 1
+pinnumber=12
+T 100 3600 5 10 0 0 0 0 1
+pinseq=12
+}
+P 100 3400 400 3400 1 0 0
+{
+T 100 3400 5 10 0 0 0 0 1
+pintype=io
+T 455 3395 9 10 1 1 0 0 1
+pinlabel=GPIO106_CIF_DD07
+T 305 3445 5 10 1 1 0 6 1
+pinnumber=13
+T 100 3400 5 10 0 0 0 0 1
+pinseq=13
+}
+P 100 3200 400 3200 1 0 0
+{
+T 100 3200 5 10 0 0 0 0 1
+pintype=io
+T 455 3195 9 10 1 1 0 0 1
+pinlabel=GPIO107_CIF_DD08
+T 305 3245 5 10 1 1 0 6 1
+pinnumber=14
+T 100 3200 5 10 0 0 0 0 1
+pinseq=14
+}
+P 100 3000 400 3000 1 0 0
+{
+T 100 3000 5 10 0 0 0 0 1
+pintype=io
+T 455 2995 9 10 1 1 0 0 1
+pinlabel=CPIO108_CIF_DD09
+T 305 3045 5 10 1 1 0 6 1
+pinnumber=15
+T 100 3000 5 10 0 0 0 0 1
+pinseq=15
+}
+P 100 2800 400 2800 1 0 0
+{
+T 100 2800 5 10 0 0 0 0 1
+pintype=io
+T 455 2795 9 10 1 1 0 0 1
+pinlabel=GPIO109_CAM_D10
+T 305 2845 5 10 1 1 0 6 1
+pinnumber=16
+T 100 2800 5 10 0 0 0 0 1
+pinseq=16
+}
+P 100 2600 400 2600 1 0 0
+{
+T 100 2600 5 10 0 0 0 0 1
+pintype=io
+T 455 2595 9 10 1 1 0 0 1
+pinlabel=GPIO110_CAM_D11
+T 305 2645 5 10 1 1 0 6 1
+pinnumber=17
+T 100 2600 5 10 0 0 0 0 1
+pinseq=17
+}
+P 100 2400 400 2400 1 0 0
+{
+T 100 2400 5 10 0 0 0 0 1
+pintype=io
+T 455 2395 9 10 1 1 0 0 1
+pinlabel=GPIO111_CAM_XCLKB
+T 305 2445 5 10 1 1 0 6 1
+pinnumber=18
+T 100 2400 5 10 0 0 0 0 1
+pinseq=18
+}
+P 100 2200 400 2200 1 0 0
+{
+T 100 2200 5 10 0 0 0 0 1
+pintype=io
+T 455 2195 9 10 1 1 0 0 1
+pinlabel=GPIO167_CAM_WEN
+T 305 2245 5 10 1 1 0 6 1
+pinnumber=19
+T 100 2200 5 10 0 0 0 0 1
+pinseq=19
+}
+P 100 2000 400 2000 1 0 0
+{
+T 100 2000 5 10 0 0 0 0 1
+pintype=io
+T 455 1995 9 10 1 1 0 0 1
+pinlabel=GPIO126_CAM_STROBE
+T 305 2045 5 10 1 1 0 6 1
+pinnumber=20
+T 100 2000 5 10 0 0 0 0 1
+pinseq=20
+}
+P 100 1800 400 1800 1 0 0
+{
+T 100 1800 5 10 0 0 0 0 1
+pintype=pwr
+T 455 1795 9 10 1 1 0 0 1
+pinlabel=VDDS_1.8
+T 305 1845 5 10 1 1 0 6 1
+pinnumber=21
+T 100 1800 5 10 0 0 0 0 1
+pinseq=21
+}
+P 100 1600 400 1600 1 0 0
+{
+T 100 1600 5 10 0 0 0 0 1
+pintype=io
+T 455 1595 9 10 1 1 0 0 1
+pinlabel=SYSEN
+T 305 1645 5 10 1 1 0 6 1
+pinnumber=22
+T 100 1600 5 10 0 0 0 0 1
+pinseq=22
+}
+P 100 1400 400 1400 1 0 0
+{
+T 100 1400 5 10 0 0 0 0 1
+pintype=pwr
+T 455 1395 9 10 1 1 0 0 1
+pinlabel=GND
+T 305 1445 5 10 1 1 0 6 1
+pinnumber=23
+T 100 1400 5 10 0 0 0 0 1
+pinseq=23
+}
+P 100 1200 400 1200 1 0 0
+{
+T 100 1200 5 10 0 0 0 0 1
+pintype=pwr
+T 455 1195 9 10 1 1 0 0 1
+pinlabel=VSYSTEM
+T 305 1245 5 10 1 1 0 6 1
+pinnumber=24
+T 100 1200 5 10 0 0 0 0 1
+pinseq=24
+}
+P 100 1000 400 1000 1 0 0
+{
+T 100 1000 5 10 0 0 0 0 1
+pintype=io
+T 455 995 9 10 1 1 0 0 1
+pinlabel=GPIO63_CAM_IRQ
+T 305 1045 5 10 1 1 0 6 1
+pinnumber=25
+T 100 1000 5 10 0 0 0 0 1
+pinseq=25
+}
+P 100 800 400 800 1 0 0
+{
+T 100 800 5 10 0 0 0 0 1
+pintype=in
+T 455 795 9 10 1 1 0 0 1
+pinlabel=GPIO184_I2C3_SCL
+T 305 845 5 10 1 1 0 6 1
+pinnumber=26
+T 100 800 5 10 0 0 0 0 1
+pinseq=26
+}
+P 100 600 400 600 1 0 0
+{
+T 100 600 5 10 0 0 0 0 1
+pintype=io
+T 455 595 9 10 1 1 0 0 1
+pinlabel=GPIO185_I2C3_SDA
+T 305 645 5 10 1 1 0 6 1
+pinnumber=27
+T 100 600 5 10 0 0 0 0 1
+pinseq=27
+}
+L 400 6200 400 200 3 0 0 0 -1 -1
+L 400 6200 3000 6200 3 0 0 0 -1 -1
+L 3000 6200 3000 200 3 0 0 0 -1 -1
+L 3000 200 400 200 3 0 0 0 -1 -1
+T 400 0 9 10 1 0 0 0 1
+Overo Connector J5
+T 2200 6300 8 10 1 1 0 0 1
+refdes=CONN?
+T 45 0 8 10 0 1 0 0 1
+device=OVERO_J5
