@@ -1,0 +1,17 @@
+
+The processor module is designed as an accessory board for a Gumstix
+Overo Air. (Although it will be physically larger then the Overo.) The
+connector pinout is described by Gumstix documentation an drawn into
+the symbols overo-J*-1.sym. The schematic sheets that are named with
+the prefix "processor_" are sheets of the processor board.
+
+* processor_lan
+
+This page describes the ethernet LAN. Ethernet support uses the
+LAN9221 ASIC from SMSC and a Pulse StarJack J00-00XXNL series
+jack. The J00-0045NL or J00-0065NL should do as a jack. The speed and
+link lights are integrated into the jack.
+
+The address lines are wired up like the Gumstix Chestnut board for
+software compatibility. In particular, A10 is used as a FIFO_SEL so
+the processor address range matches what the Overo expects.
