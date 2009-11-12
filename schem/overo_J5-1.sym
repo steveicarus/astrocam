@@ -24,7 +24,7 @@ pinseq=2
 P 100 5400 400 5400 1 0 0
 {
 T 100 5400 5 10 0 0 0 0 1
-pintype=io
+pintype=out
 T 455 5395 9 10 1 1 0 0 1
 pinlabel=GPIO96_CAM_XCLKA
 T 305 5445 5 10 1 1 0 6 1
@@ -35,7 +35,7 @@ pinseq=3
 P 100 5200 400 5200 1 0 0
 {
 T 100 5200 5 10 0 0 0 0 1
-pintype=out
+pintype=in
 T 455 5195 9 10 1 1 0 0 1
 pinlabel=GPIO97_CAM_PCLK
 T 305 5245 5 10 1 1 0 6 1
