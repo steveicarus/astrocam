@@ -15,3 +15,23 @@ link lights are integrated into the jack.
 The address lines are wired up like the Gumstix Chestnut board for
 software compatibility. In particular, A10 is used as a FIFO_SEL so
 the processor address range matches what the Overo expects.
+
+* processor_logic
+
+The processor_logic symbol describes the FPGA that handles the
+interface to the remote camera. The FPGA connects to the processor
+peripheral bus, the processor camera interface, and the SerDes
+interface.
+
+The FPGA is mostly clocked by a 40MHz system clock, input to the
+SYSCLK pin. The video output and serdes interfaces are synchronous with
+this clock. The same clock drives the SYSCLK input, the SerDes TCLK,
+and the pixel clock into the Overo.
+
+The processor interface uses the BUS CLOCK that comes from the Overo
+processor board. Address and data are multiplexed on a 16bit bus with
+address enable, write enable, output enable, byte enables and chip
+select.
+
+The FPGA should be configured as slave parallel, and wired in such a
+way that writes into the chip select for the FPGA can load the FPGA.
