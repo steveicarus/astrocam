@@ -1,0 +1,440 @@
+v 20081231 1
+P 0 5700 300 5700 1 0 0
+{
+T 0 5700 5 10 0 0 0 0 1
+pintype=in
+T 355 5695 9 10 1 1 0 0 1
+pinlabel=nRESET
+T 205 5745 5 10 0 1 0 6 1
+pinnumber=nRESET
+T 0 5700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 5400 300 5400 1 0 0
+{
+T 0 5400 5 10 0 0 0 0 1
+pintype=in
+T 355 5395 9 10 1 1 0 0 1
+pinlabel=MCLK
+T 205 5445 5 10 0 1 0 6 1
+pinnumber=MCLK
+T 0 5400 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 5100 300 5100 1 0 0
+{
+T 0 5100 5 10 0 0 0 0 1
+pintype=in
+T 355 5095 9 10 1 1 0 0 1
+pinlabel=MBE0n
+T 205 5145 5 10 0 1 0 6 1
+pinnumber=MBE0n
+T 0 5100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 4900 300 4900 1 0 0
+{
+T 0 4900 5 10 0 0 0 0 1
+pintype=in
+T 355 4895 9 10 1 1 0 0 1
+pinlabel=MBE1n
+T 205 4945 5 10 0 1 0 6 1
+pinnumber=MBE1n
+T 0 4900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 4600 300 4600 1 0 0
+{
+T 0 4600 5 10 0 0 0 0 1
+pintype=in
+T 355 4595 9 10 1 1 0 0 1
+pinlabel=MOEn
+T 205 4645 5 10 0 1 0 6 1
+pinnumber=MOEn
+T 0 4600 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 4400 300 4400 1 0 0
+{
+T 0 4400 5 10 0 0 0 0 1
+pintype=in
+T 355 4395 9 10 1 1 0 0 1
+pinlabel=MWEn
+T 205 4445 5 10 0 1 0 6 1
+pinnumber=MWEn
+T 0 4400 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 4200 300 4200 1 0 0
+{
+T 0 4200 5 10 0 0 0 0 1
+pintype=in
+T 355 4195 9 10 1 1 0 0 1
+pinlabel=MCSn
+T 205 4245 5 10 0 1 0 6 1
+pinnumber=MCSn
+T 0 4200 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 4000 300 4000 1 0 0
+{
+T 0 4000 5 10 0 0 0 0 1
+pintype=in
+T 355 3995 9 10 1 1 0 0 1
+pinlabel=MADVn
+T 205 4045 5 10 0 1 0 6 1
+pinnumber=MADVn
+T 0 4000 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 3700 300 3700 1 0 0
+{
+T 0 3700 5 10 0 0 0 0 1
+pintype=io
+T 355 3695 9 10 1 1 0 0 1
+pinlabel=MD0
+T 205 3745 5 10 0 1 0 6 1
+pinnumber=MD0
+T 0 3700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 3500 300 3500 1 0 0
+{
+T 0 3500 5 10 0 0 0 0 1
+pintype=io
+T 355 3495 9 10 1 1 0 0 1
+pinlabel=MD1
+T 205 3545 5 10 0 1 0 6 1
+pinnumber=MD1
+T 0 3500 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 3300 300 3300 1 0 0
+{
+T 0 3300 5 10 0 0 0 0 1
+pintype=io
+T 355 3295 9 10 1 1 0 0 1
+pinlabel=MD2
+T 205 3345 5 10 0 1 0 6 1
+pinnumber=MD2
+T 0 3300 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 3100 300 3100 1 0 0
+{
+T 0 3100 5 10 0 0 0 0 1
+pintype=io
+T 355 3095 9 10 1 1 0 0 1
+pinlabel=MD3
+T 205 3145 5 10 0 1 0 6 1
+pinnumber=MD3
+T 0 3100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 2900 300 2900 1 0 0
+{
+T 0 2900 5 10 0 0 0 0 1
+pintype=io
+T 355 2895 9 10 1 1 0 0 1
+pinlabel=MD4
+T 205 2945 5 10 0 1 0 6 1
+pinnumber=MD4
+T 0 2900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 2700 300 2700 1 0 0
+{
+T 0 2700 5 10 0 0 0 0 1
+pintype=io
+T 355 2695 9 10 1 1 0 0 1
+pinlabel=MD5
+T 205 2745 5 10 0 1 0 6 1
+pinnumber=MD5
+T 0 2700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 2500 300 2500 1 0 0
+{
+T 0 2500 5 10 0 0 0 0 1
+pintype=io
+T 355 2495 9 10 1 1 0 0 1
+pinlabel=MD6
+T 205 2545 5 10 0 1 0 6 1
+pinnumber=MD6
+T 0 2500 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 2300 300 2300 1 0 0
+{
+T 0 2300 5 10 0 0 0 0 1
+pintype=io
+T 355 2295 9 10 1 1 0 0 1
+pinlabel=MD7
+T 205 2345 5 10 0 1 0 6 1
+pinnumber=MD7
+T 0 2300 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 2100 300 2100 1 0 0
+{
+T 0 2100 5 10 0 0 0 0 1
+pintype=io
+T 355 2095 9 10 1 1 0 0 1
+pinlabel=MD8
+T 205 2145 5 10 0 1 0 6 1
+pinnumber=MD8
+T 0 2100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 1900 300 1900 1 0 0
+{
+T 0 1900 5 10 0 0 0 0 1
+pintype=io
+T 355 1895 9 10 1 1 0 0 1
+pinlabel=MD9
+T 205 1945 5 10 0 1 0 6 1
+pinnumber=MD9
+T 0 1900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 1700 300 1700 1 0 0
+{
+T 0 1700 5 10 0 0 0 0 1
+pintype=io
+T 355 1695 9 10 1 1 0 0 1
+pinlabel=MD10
+T 205 1745 5 10 0 1 0 6 1
+pinnumber=MD10
+T 0 1700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 1500 300 1500 1 0 0
+{
+T 0 1500 5 10 0 0 0 0 1
+pintype=io
+T 355 1495 9 10 1 1 0 0 1
+pinlabel=MD11
+T 205 1545 5 10 0 1 0 6 1
+pinnumber=MD11
+T 0 1500 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 1300 300 1300 1 0 0
+{
+T 0 1300 5 10 0 0 0 0 1
+pintype=io
+T 355 1295 9 10 1 1 0 0 1
+pinlabel=MD12
+T 205 1345 5 10 0 1 0 6 1
+pinnumber=MD12
+T 0 1300 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 1100 300 1100 1 0 0
+{
+T 0 1100 5 10 0 0 0 0 1
+pintype=io
+T 355 1095 9 10 1 1 0 0 1
+pinlabel=MD13
+T 205 1145 5 10 0 1 0 6 1
+pinnumber=MD13
+T 0 1100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 900 300 900 1 0 0
+{
+T 0 900 5 10 0 0 0 0 1
+pintype=io
+T 355 895 9 10 1 1 0 0 1
+pinlabel=MD14
+T 205 945 5 10 0 1 0 6 1
+pinnumber=MD14
+T 0 900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 700 300 700 1 0 0
+{
+T 0 700 5 10 0 0 0 0 1
+pintype=io
+T 355 695 9 10 1 1 0 0 1
+pinlabel=MD15
+T 205 745 5 10 0 1 0 6 1
+pinnumber=MD15
+T 0 700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 4400 2700 4400 1 0 0
+{
+T 3000 4400 5 10 0 0 0 0 1
+pintype=out
+T 2645 4395 9 10 1 1 0 6 1
+pinlabel=CAM_CLK
+T 2795 4445 5 10 0 1 0 0 1
+pinnumber=CAM_CLK
+T 3000 4400 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 4200 2700 4200 1 0 0
+{
+T 3000 4200 5 10 0 0 0 0 1
+pintype=out
+T 2645 4195 9 10 1 1 0 6 1
+pinlabel=CAM_VS
+T 2795 4245 5 10 0 1 0 0 1
+pinnumber=CAM_VS
+T 3000 4200 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 4000 2700 4000 1 0 0
+{
+T 3000 4000 5 10 0 0 0 0 1
+pintype=out
+T 2645 3995 9 10 1 1 0 6 1
+pinlabel=CAM_HS
+T 2795 4045 5 10 0 1 0 0 1
+pinnumber=CAM_HS
+T 3000 4000 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 3700 2700 3700 1 0 0
+{
+T 3000 3700 5 10 0 0 0 0 1
+pintype=out
+T 2645 3695 9 10 1 1 0 6 1
+pinlabel=CAM_D0
+T 2795 3745 5 10 0 1 0 0 1
+pinnumber=CAM_D0
+T 3000 3700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 3500 2700 3500 1 0 0
+{
+T 3000 3500 5 10 0 0 0 0 1
+pintype=out
+T 2645 3495 9 10 1 1 0 6 1
+pinlabel=CAM_D1
+T 2795 3545 5 10 0 1 0 0 1
+pinnumber=CAM_D1
+T 3000 3500 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 3300 2700 3300 1 0 0
+{
+T 3000 3300 5 10 0 0 0 0 1
+pintype=out
+T 2645 3295 9 10 1 1 0 6 1
+pinlabel=CAM_D2
+T 2795 3345 5 10 0 1 0 0 1
+pinnumber=CAM_D2
+T 3000 3300 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 3100 2700 3100 1 0 0
+{
+T 3000 3100 5 10 0 0 0 0 1
+pintype=out
+T 2645 3095 9 10 1 1 0 6 1
+pinlabel=CAM_D3
+T 2795 3145 5 10 0 1 0 0 1
+pinnumber=CAM_D3
+T 3000 3100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 2900 2700 2900 1 0 0
+{
+T 3000 2900 5 10 0 0 0 0 1
+pintype=out
+T 2645 2895 9 10 1 1 0 6 1
+pinlabel=CAM_D4
+T 2795 2945 5 10 0 1 0 0 1
+pinnumber=CAM_D4
+T 3000 2900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 2700 2700 2700 1 0 0
+{
+T 3000 2700 5 10 0 0 0 0 1
+pintype=out
+T 2645 2695 9 10 1 1 0 6 1
+pinlabel=CAM_D5
+T 2795 2745 5 10 0 1 0 0 1
+pinnumber=CAM_D5
+T 3000 2700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 2500 2700 2500 1 0 0
+{
+T 3000 2500 5 10 0 0 0 0 1
+pintype=out
+T 2645 2495 9 10 1 1 0 6 1
+pinlabel=CAM_D6
+T 2795 2545 5 10 0 1 0 0 1
+pinnumber=CAM_D6
+T 3000 2500 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 2300 2700 2300 1 0 0
+{
+T 3000 2300 5 10 0 0 0 0 1
+pintype=out
+T 2645 2295 9 10 1 1 0 6 1
+pinlabel=CAM_D7
+T 2795 2345 5 10 0 1 0 0 1
+pinnumber=CAM_D7
+T 3000 2300 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 2100 2700 2100 1 0 0
+{
+T 3000 2100 5 10 0 0 0 0 1
+pintype=out
+T 2645 2095 9 10 1 1 0 6 1
+pinlabel=CAM_D8
+T 2795 2145 5 10 0 1 0 0 1
+pinnumber=CAM_D8
+T 3000 2100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 1900 2700 1900 1 0 0
+{
+T 3000 1900 5 10 0 0 0 0 1
+pintype=out
+T 2645 1895 9 10 1 1 0 6 1
+pinlabel=CAM_D9
+T 2795 1945 5 10 0 1 0 0 1
+pinnumber=CAM_D9
+T 3000 1900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 1700 2700 1700 1 0 0
+{
+T 3000 1700 5 10 0 0 0 0 1
+pintype=out
+T 2645 1695 9 10 1 1 0 6 1
+pinlabel=CAM_D10
+T 2795 1745 5 10 0 1 0 0 1
+pinnumber=CAM_D10
+T 3000 1700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3000 1500 2700 1500 1 0 0
+{
+T 3000 1500 5 10 0 0 0 0 1
+pintype=out
+T 2645 1495 9 10 1 1 0 6 1
+pinlabel=CAM_D11
+T 2795 1545 5 10 0 1 0 0 1
+pinnumber=CAM_D11
+T 3000 1500 5 10 0 0 0 0 1
+pinseq=0
+}
+L 300 6000 300 200 3 0 0 0 -1 -1
+L 300 200 2700 200 3 0 0 0 -1 -1
+L 2700 200 2700 6000 3 0 0 0 -1 -1
+L 2700 6000 300 6000 3 0 0 0 -1 -1
+T 400 0 9 10 1 0 0 0 1
+Camera Logic
+T 400 300 8 10 1 1 0 0 1
+source=processor_camera.sch
+T 2300 6100 8 10 1 1 0 0 1
+refdes=U?
