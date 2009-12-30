@@ -1,0 +1,55 @@
+v 20081231 1
+P 0 1300 300 1300 1 0 0
+{
+T 0 1300 5 10 0 0 0 0 1
+pintype=io
+T 355 1295 9 10 1 1 0 0 1
+pinlabel=DP
+T 205 1345 5 10 0 1 0 6 1
+pinnumber=DP
+T 0 1300 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 1100 300 1100 1 0 0
+{
+T 0 1100 5 10 0 0 0 0 1
+pintype=io
+T 355 1095 9 10 1 1 0 0 1
+pinlabel=DM
+T 205 1145 5 10 0 1 0 6 1
+pinnumber=DM
+T 0 1100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 800 300 800 1 0 0
+{
+T 0 800 5 10 0 0 0 0 1
+pintype=pwr
+T 355 795 9 10 1 1 0 0 1
+pinlabel=VBUS
+T 205 845 5 10 0 1 0 6 1
+pinnumber=VBUS
+T 0 800 5 10 0 0 0 0 1
+pinseq=0
+}
+P 0 600 300 600 1 0 0
+{
+T 0 600 5 10 0 0 0 0 1
+pintype=in
+T 355 595 9 10 1 1 0 0 1
+pinlabel=CPEN
+T 205 645 5 10 0 1 0 6 1
+pinnumber=CPEN
+T 0 600 5 10 0 0 0 0 1
+pinseq=0
+}
+L 300 1600 300 200 3 0 0 0 -1 -1
+L 300 200 2100 200 3 0 0 0 -1 -1
+L 2100 200 2100 1600 3 0 0 0 -1 -1
+L 2100 1600 300 1600 3 0 0 0 -1 -1
+T 400 300 8 10 1 1 0 0 1
+source=processor_usb.sch
+T 1695 1700 8 10 1 1 0 0 1
+refdes=U?
+T 400 0 9 10 1 0 0 0 1
+USB Interface
