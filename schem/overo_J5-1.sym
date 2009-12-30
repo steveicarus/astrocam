@@ -81,7 +81,7 @@ P 100 4400 400 4400 1 0 0
 T 100 4400 5 10 0 0 0 0 1
 pintype=io
 T 455 4395 9 10 1 1 0 0 1
-pinlabel=GPIO101_CAM_02
+pinlabel=GPIO101_CAM_D2
 T 305 4445 5 10 1 1 0 6 1
 pinnumber=8
 T 100 4400 5 10 0 0 0 0 1

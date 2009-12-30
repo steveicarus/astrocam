@@ -438,3 +438,14 @@ T 400 300 8 10 1 1 0 0 1
 source=processor_camera.sch
 T 2300 6100 8 10 1 1 0 0 1
 refdes=U?
+P 3000 5700 2700 5700 1 0 0
+{
+T 3000 5700 5 10 0 0 0 0 1
+pintype=out
+T 2645 5695 9 10 1 1 0 6 1
+pinlabel=MIRQ
+T 2795 5745 5 10 0 1 0 0 1
+pinnumber=MIRQ
+T 3000 5700 5 10 0 0 0 0 1
+pinseq=0
+}
