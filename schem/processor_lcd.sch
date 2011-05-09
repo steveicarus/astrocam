@@ -1,0 +1,828 @@
+v 20081231 1
+C 40000 50700 1 0 0 input-1.sym
+{
+T 40000 51000 5 10 0 0 0 0 1
+device=INPUT
+T 39400 50700 5 10 1 1 0 0 1
+refdes=RED0
+}
+C 40000 50400 1 0 0 input-1.sym
+{
+T 40000 50700 5 10 0 0 0 0 1
+device=INPUT
+T 39400 50400 5 10 1 1 0 0 1
+refdes=RED1
+}
+C 40000 50100 1 0 0 input-1.sym
+{
+T 40000 50400 5 10 0 0 0 0 1
+device=INPUT
+T 39400 50100 5 10 1 1 0 0 1
+refdes=RED2
+}
+C 40000 49800 1 0 0 input-1.sym
+{
+T 40000 50100 5 10 0 0 0 0 1
+device=INPUT
+T 39400 49800 5 10 1 1 0 0 1
+refdes=RED3
+}
+C 40000 49500 1 0 0 input-1.sym
+{
+T 40000 49800 5 10 0 0 0 0 1
+device=INPUT
+T 39400 49500 5 10 1 1 0 0 1
+refdes=RED4
+}
+C 40000 49200 1 0 0 input-1.sym
+{
+T 40000 49500 5 10 0 0 0 0 1
+device=INPUT
+T 39400 49200 5 10 1 1 0 0 1
+refdes=RED5
+}
+C 40000 48900 1 0 0 input-1.sym
+{
+T 40000 49200 5 10 0 0 0 0 1
+device=INPUT
+T 39400 48900 5 10 1 1 0 0 1
+refdes=RED6
+}
+C 40000 48600 1 0 0 input-1.sym
+{
+T 40000 48900 5 10 0 0 0 0 1
+device=INPUT
+T 39400 48600 5 10 1 1 0 0 1
+refdes=RED7
+}
+C 40000 48100 1 0 0 input-1.sym
+{
+T 40000 48400 5 10 0 0 0 0 1
+device=INPUT
+T 39100 48100 5 10 1 1 0 0 1
+refdes=GREEN0
+}
+C 40000 47800 1 0 0 input-1.sym
+{
+T 40000 48100 5 10 0 0 0 0 1
+device=INPUT
+T 39100 47800 5 10 1 1 0 0 1
+refdes=GREEN1
+}
+C 40000 47500 1 0 0 input-1.sym
+{
+T 40000 47800 5 10 0 0 0 0 1
+device=INPUT
+T 39100 47500 5 10 1 1 0 0 1
+refdes=GREEN2
+}
+C 40000 47200 1 0 0 input-1.sym
+{
+T 40000 47500 5 10 0 0 0 0 1
+device=INPUT
+T 39100 47200 5 10 1 1 0 0 1
+refdes=GREEN3
+}
+C 40000 46900 1 0 0 input-1.sym
+{
+T 40000 47200 5 10 0 0 0 0 1
+device=INPUT
+T 39100 46900 5 10 1 1 0 0 1
+refdes=GREEN4
+}
+C 40000 46600 1 0 0 input-1.sym
+{
+T 40000 46900 5 10 0 0 0 0 1
+device=INPUT
+T 39100 46600 5 10 1 1 0 0 1
+refdes=GREEN5
+}
+C 40000 46300 1 0 0 input-1.sym
+{
+T 40000 46600 5 10 0 0 0 0 1
+device=INPUT
+T 39100 46300 5 10 1 1 0 0 1
+refdes=GREEN6
+}
+C 40000 46000 1 0 0 input-1.sym
+{
+T 40000 46300 5 10 0 0 0 0 1
+device=INPUT
+T 39100 46000 5 10 1 1 0 0 1
+refdes=GREEN7
+}
+C 40000 45500 1 0 0 input-1.sym
+{
+T 40000 45800 5 10 0 0 0 0 1
+device=INPUT
+T 39300 45500 5 10 1 1 0 0 1
+refdes=BLUE0
+}
+C 40000 45200 1 0 0 input-1.sym
+{
+T 40000 45500 5 10 0 0 0 0 1
+device=INPUT
+T 39300 45200 5 10 1 1 0 0 1
+refdes=BLUE1
+}
+C 40000 44900 1 0 0 input-1.sym
+{
+T 40000 45200 5 10 0 0 0 0 1
+device=INPUT
+T 39300 44900 5 10 1 1 0 0 1
+refdes=BLUE2
+}
+C 40000 44600 1 0 0 input-1.sym
+{
+T 40000 44900 5 10 0 0 0 0 1
+device=INPUT
+T 39300 44600 5 10 1 1 0 0 1
+refdes=BLUE3
+}
+C 40000 44300 1 0 0 input-1.sym
+{
+T 40000 44600 5 10 0 0 0 0 1
+device=INPUT
+T 39300 44300 5 10 1 1 0 0 1
+refdes=BLUE4
+}
+C 40000 44000 1 0 0 input-1.sym
+{
+T 40000 44300 5 10 0 0 0 0 1
+device=INPUT
+T 39300 44000 5 10 1 1 0 0 1
+refdes=BLUE5
+}
+C 40000 43700 1 0 0 input-1.sym
+{
+T 40000 44000 5 10 0 0 0 0 1
+device=INPUT
+T 39300 43700 5 10 1 1 0 0 1
+refdes=BLUE6
+}
+C 40000 43400 1 0 0 input-1.sym
+{
+T 40000 43700 5 10 0 0 0 0 1
+device=INPUT
+T 39300 43400 5 10 1 1 0 0 1
+refdes=BLUE7
+}
+C 40000 51200 1 0 0 input-1.sym
+{
+T 40000 51500 5 10 0 0 0 0 1
+device=INPUT
+T 39300 51200 5 10 1 1 0 0 1
+refdes=VSYNC
+}
+C 40000 51500 1 0 0 input-1.sym
+{
+T 40000 51800 5 10 0 0 0 0 1
+device=INPUT
+T 39300 51500 5 10 1 1 0 0 1
+refdes=HSYNC
+}
+C 40000 52100 1 0 0 input-1.sym
+{
+T 40000 52400 5 10 0 0 0 0 1
+device=INPUT
+T 39500 52100 5 10 1 1 0 0 1
+refdes=PCLK
+}
+C 40000 51800 1 0 0 input-1.sym
+{
+T 40000 52100 5 10 0 0 0 0 1
+device=INPUT
+T 39500 51800 5 10 1 1 0 0 1
+refdes=DEN
+}
+C 40000 53900 1 0 0 input-1.sym
+{
+T 40000 54200 5 10 0 0 0 0 1
+device=INPUT
+T 39500 53900 5 10 1 1 0 0 1
+refdes=PON
+}
+C 54400 42500 1 0 0 output-1.sym
+{
+T 54500 42800 5 10 0 0 0 0 1
+device=OUTPUT
+T 55300 42500 5 10 1 1 0 0 1
+refdes=nTIRQ
+}
+C 46900 42500 1 0 0 input-1.sym
+{
+T 46900 42800 5 10 0 0 0 0 1
+device=INPUT
+T 46100 42500 5 10 1 1 0 0 1
+refdes=SPI_nCS
+}
+C 46900 42200 1 0 0 input-1.sym
+{
+T 46900 42500 5 10 0 0 0 0 1
+device=INPUT
+T 46100 42200 5 10 1 1 0 0 1
+refdes=SPI_DIN
+}
+C 46900 42800 1 0 0 input-1.sym
+{
+T 46900 43100 5 10 0 0 0 0 1
+device=INPUT
+T 46100 42800 5 10 1 1 0 0 1
+refdes=SPI_CLK
+}
+C 54400 42200 1 0 0 output-1.sym
+{
+T 54500 42500 5 10 0 0 0 0 1
+device=OUTPUT
+T 55200 42200 5 10 1 1 0 0 1
+refdes=SPI_DOUT
+}
+C 47300 44700 1 0 0 LCD_CONNECTOR-1.sym
+{
+T 52100 51300 5 10 1 1 0 0 1
+refdes=CONN?
+}
+C 35400 38700 0 0 0 title-bordered-C.sym
+U 45400 44900 45400 52500 10 -1
+U 45400 52500 43000 52500 10 0
+U 43000 52500 43000 43200 10 -1
+N 47400 49900 45600 49900 4
+{
+T 45700 49900 5 10 1 1 0 0 1
+netname=LCD_RED0
+}
+C 45600 49900 1 180 0 busripper-1.sym
+{
+T 45600 50300 5 8 0 0 0 0 1
+device=none
+}
+N 47400 49700 45600 49700 4
+{
+T 45700 49700 5 10 1 1 0 0 1
+netname=LCD_RED1
+}
+C 45600 49700 1 180 0 busripper-1.sym
+{
+T 45600 50100 5 8 0 0 0 0 1
+device=none
+}
+N 47400 49500 45600 49500 4
+{
+T 45700 49500 5 10 1 1 0 0 1
+netname=LCD_RED2
+}
+C 45600 49500 1 180 0 busripper-1.sym
+{
+T 45600 49900 5 8 0 0 0 0 1
+device=none
+}
+N 47400 49300 45600 49300 4
+{
+T 45700 49300 5 10 1 1 0 0 1
+netname=LCD_RED3
+}
+C 45600 49300 1 180 0 busripper-1.sym
+{
+T 45600 49700 5 8 0 0 0 0 1
+device=none
+}
+N 47400 49100 45600 49100 4
+{
+T 45700 49100 5 10 1 1 0 0 1
+netname=LCD_RED4
+}
+C 45600 49100 1 180 0 busripper-1.sym
+{
+T 45600 49500 5 8 0 0 0 0 1
+device=none
+}
+N 47400 48900 45600 48900 4
+{
+T 45700 48900 5 10 1 1 0 0 1
+netname=LCD_RED5
+}
+C 45600 48900 1 180 0 busripper-1.sym
+{
+T 45600 49300 5 8 0 0 0 0 1
+device=none
+}
+N 47400 48700 45600 48700 4
+{
+T 45700 48700 5 10 1 1 0 0 1
+netname=LCD_RED6
+}
+C 45600 48700 1 180 0 busripper-1.sym
+{
+T 45600 49100 5 8 0 0 0 0 1
+device=none
+}
+N 47400 48500 45600 48500 4
+{
+T 45700 48500 5 10 1 1 0 0 1
+netname=LCD_RED7
+}
+C 45600 48500 1 180 0 busripper-1.sym
+{
+T 45600 48900 5 8 0 0 0 0 1
+device=none
+}
+N 47400 48300 45600 48300 4
+{
+T 45700 48300 5 10 1 1 0 0 1
+netname=LCD_GRN0
+}
+C 45600 48300 1 180 0 busripper-1.sym
+{
+T 45600 48700 5 8 0 0 0 0 1
+device=none
+}
+N 47400 48100 45600 48100 4
+{
+T 45700 48100 5 10 1 1 0 0 1
+netname=LCD_GRN1
+}
+C 45600 48100 1 180 0 busripper-1.sym
+{
+T 45600 48500 5 8 0 0 0 0 1
+device=none
+}
+N 47400 47900 45600 47900 4
+{
+T 45700 47900 5 10 1 1 0 0 1
+netname=LCD_GRN2
+}
+C 45600 47900 1 180 0 busripper-1.sym
+{
+T 45600 48300 5 8 0 0 0 0 1
+device=none
+}
+N 47400 47700 45600 47700 4
+{
+T 45700 47700 5 10 1 1 0 0 1
+netname=LCD_GRN3
+}
+C 45600 47700 1 180 0 busripper-1.sym
+{
+T 45600 48100 5 8 0 0 0 0 1
+device=none
+}
+N 47400 47500 45600 47500 4
+{
+T 45700 47500 5 10 1 1 0 0 1
+netname=LCD_GRN4
+}
+C 45600 47500 1 180 0 busripper-1.sym
+{
+T 45600 47900 5 8 0 0 0 0 1
+device=none
+}
+N 47400 47300 45600 47300 4
+{
+T 45700 47300 5 10 1 1 0 0 1
+netname=LCD_GRN5
+}
+C 45600 47300 1 180 0 busripper-1.sym
+{
+T 45600 47700 5 8 0 0 0 0 1
+device=none
+}
+N 47400 47100 45600 47100 4
+{
+T 45700 47100 5 10 1 1 0 0 1
+netname=LCD_GRN6
+}
+C 45600 47100 1 180 0 busripper-1.sym
+{
+T 45600 47500 5 8 0 0 0 0 1
+device=none
+}
+N 47400 46900 45600 46900 4
+{
+T 45700 46900 5 10 1 1 0 0 1
+netname=LCD_GRN7
+}
+C 45600 46900 1 180 0 busripper-1.sym
+{
+T 45600 47300 5 8 0 0 0 0 1
+device=none
+}
+N 47400 46700 45600 46700 4
+{
+T 45700 46700 5 10 1 1 0 0 1
+netname=LCD_BLU0
+}
+C 45600 46700 1 180 0 busripper-1.sym
+{
+T 45600 47100 5 8 0 0 0 0 1
+device=none
+}
+N 47400 46500 45600 46500 4
+{
+T 45700 46500 5 10 1 1 0 0 1
+netname=LCD_BLU1
+}
+C 45600 46500 1 180 0 busripper-1.sym
+{
+T 45600 46900 5 8 0 0 0 0 1
+device=none
+}
+N 47400 46300 45600 46300 4
+{
+T 45700 46300 5 10 1 1 0 0 1
+netname=LCD_BLU2
+}
+C 45600 46300 1 180 0 busripper-1.sym
+{
+T 45600 46700 5 8 0 0 0 0 1
+device=none
+}
+N 47400 46100 45600 46100 4
+{
+T 45700 46100 5 10 1 1 0 0 1
+netname=LCD_BLU3
+}
+C 45600 46100 1 180 0 busripper-1.sym
+{
+T 45600 46500 5 8 0 0 0 0 1
+device=none
+}
+N 47400 45900 45600 45900 4
+{
+T 45700 45900 5 10 1 1 0 0 1
+netname=LCD_BLU4
+}
+C 45600 45900 1 180 0 busripper-1.sym
+{
+T 45600 46300 5 8 0 0 0 0 1
+device=none
+}
+N 47400 45700 45600 45700 4
+{
+T 45700 45700 5 10 1 1 0 0 1
+netname=LCD_BLU5
+}
+C 45600 45700 1 180 0 busripper-1.sym
+{
+T 45600 46100 5 8 0 0 0 0 1
+device=none
+}
+N 47400 45500 45600 45500 4
+{
+T 45700 45500 5 10 1 1 0 0 1
+netname=LCD_BLU6
+}
+C 45600 45500 1 180 0 busripper-1.sym
+{
+T 45600 45900 5 8 0 0 0 0 1
+device=none
+}
+N 47400 45300 45600 45300 4
+{
+T 45700 45300 5 10 1 1 0 0 1
+netname=LCD_BLU7
+}
+C 45600 45300 1 180 0 busripper-1.sym
+{
+T 45600 45700 5 8 0 0 0 0 1
+device=none
+}
+N 47400 50300 45600 50300 4
+{
+T 45700 50300 5 10 1 1 0 0 1
+netname=LCD_DE
+}
+C 45600 50300 1 180 0 busripper-1.sym
+{
+T 45600 50700 5 8 0 0 0 0 1
+device=none
+}
+N 47400 50500 45600 50500 4
+{
+T 45700 50500 5 10 1 1 0 0 1
+netname=LCD_VSYNC
+}
+C 45600 50500 1 180 0 busripper-1.sym
+{
+T 45600 50900 5 8 0 0 0 0 1
+device=none
+}
+N 47400 50700 45600 50700 4
+{
+T 45700 50700 5 10 1 1 0 0 1
+netname=LCD_HSYNC
+}
+C 45600 50700 1 180 0 busripper-1.sym
+{
+T 45600 51100 5 8 0 0 0 0 1
+device=none
+}
+N 47400 50900 45600 50900 4
+{
+T 45700 50900 5 10 1 1 0 0 1
+netname=LCD_PCLK
+}
+C 45600 50900 1 180 0 busripper-1.sym
+{
+T 45600 51300 5 8 0 0 0 0 1
+device=none
+}
+N 40800 52200 42800 52200 4
+{
+T 41600 52200 5 10 1 1 0 0 1
+netname=LCD_PCLK
+}
+C 42800 52200 1 270 0 busripper-1.sym
+{
+T 42800 52600 5 8 0 0 0 0 1
+device=none
+}
+N 40800 51900 42800 51900 4
+{
+T 41600 51900 5 10 1 1 0 0 1
+netname=LCD_DEN
+}
+C 42800 51900 1 270 0 busripper-1.sym
+{
+T 42800 52300 5 8 0 0 0 0 1
+device=none
+}
+N 40800 51600 42800 51600 4
+{
+T 41600 51600 5 10 1 1 0 0 1
+netname=LCD_HSYNC
+}
+C 42800 51600 1 270 0 busripper-1.sym
+{
+T 42800 52000 5 8 0 0 0 0 1
+device=none
+}
+N 40800 51300 42800 51300 4
+{
+T 41600 51300 5 10 1 1 0 0 1
+netname=LCD_VSYNC
+}
+C 42800 51300 1 270 0 busripper-1.sym
+{
+T 42800 51700 5 8 0 0 0 0 1
+device=none
+}
+N 40800 50800 42800 50800 4
+{
+T 41600 50800 5 10 1 1 0 0 1
+netname=LCD_RED0
+}
+C 42800 50800 1 270 0 busripper-1.sym
+{
+T 42800 51200 5 8 0 0 0 0 1
+device=none
+}
+N 40800 50500 42800 50500 4
+{
+T 41600 50500 5 10 1 1 0 0 1
+netname=LCD_RED1
+}
+C 42800 50500 1 270 0 busripper-1.sym
+{
+T 42800 50900 5 8 0 0 0 0 1
+device=none
+}
+N 40800 50200 42800 50200 4
+{
+T 41600 50200 5 10 1 1 0 0 1
+netname=LCD_RED2
+}
+C 42800 50200 1 270 0 busripper-1.sym
+{
+T 42800 50600 5 8 0 0 0 0 1
+device=none
+}
+N 40800 49900 42800 49900 4
+{
+T 41600 49900 5 10 1 1 0 0 1
+netname=LCD_RED3
+}
+C 42800 49900 1 270 0 busripper-1.sym
+{
+T 42800 50300 5 8 0 0 0 0 1
+device=none
+}
+N 40800 49600 42800 49600 4
+{
+T 41600 49600 5 10 1 1 0 0 1
+netname=LCD_RED4
+}
+C 42800 49600 1 270 0 busripper-1.sym
+{
+T 42800 50000 5 8 0 0 0 0 1
+device=none
+}
+N 40800 49300 42800 49300 4
+{
+T 41600 49300 5 10 1 1 0 0 1
+netname=LCD_RED5
+}
+C 42800 49300 1 270 0 busripper-1.sym
+{
+T 42800 49700 5 8 0 0 0 0 1
+device=none
+}
+N 40800 49000 42800 49000 4
+{
+T 41600 49000 5 10 1 1 0 0 1
+netname=LCD_RED6
+}
+C 42800 49000 1 270 0 busripper-1.sym
+{
+T 42800 49400 5 8 0 0 0 0 1
+device=none
+}
+N 40800 48700 42800 48700 4
+{
+T 41600 48700 5 10 1 1 0 0 1
+netname=LCD_RED7
+}
+C 42800 48700 1 270 0 busripper-1.sym
+{
+T 42800 49100 5 8 0 0 0 0 1
+device=none
+}
+N 40800 48200 42800 48200 4
+{
+T 41600 48200 5 10 1 1 0 0 1
+netname=LCD_GRN0
+}
+C 42800 48200 1 270 0 busripper-1.sym
+{
+T 42800 48600 5 8 0 0 0 0 1
+device=none
+}
+N 40800 47900 42800 47900 4
+{
+T 41600 47900 5 10 1 1 0 0 1
+netname=LCD_GRN1
+}
+C 42800 47900 1 270 0 busripper-1.sym
+{
+T 42800 48300 5 8 0 0 0 0 1
+device=none
+}
+N 40800 47600 42800 47600 4
+{
+T 41600 47600 5 10 1 1 0 0 1
+netname=LCD_GRN2
+}
+C 42800 47600 1 270 0 busripper-1.sym
+{
+T 42800 48000 5 8 0 0 0 0 1
+device=none
+}
+N 40800 47300 42800 47300 4
+{
+T 41600 47300 5 10 1 1 0 0 1
+netname=LCD_GRN3
+}
+C 42800 47300 1 270 0 busripper-1.sym
+{
+T 42800 47700 5 8 0 0 0 0 1
+device=none
+}
+N 40800 47000 42800 47000 4
+{
+T 41600 47000 5 10 1 1 0 0 1
+netname=LCD_GRN4
+}
+C 42800 47000 1 270 0 busripper-1.sym
+{
+T 42800 47400 5 8 0 0 0 0 1
+device=none
+}
+N 40800 46700 42800 46700 4
+{
+T 41600 46700 5 10 1 1 0 0 1
+netname=LCD_GRN5
+}
+C 42800 46700 1 270 0 busripper-1.sym
+{
+T 42800 47100 5 8 0 0 0 0 1
+device=none
+}
+N 40800 46400 42800 46400 4
+{
+T 41600 46400 5 10 1 1 0 0 1
+netname=LCD_GRN6
+}
+C 42800 46400 1 270 0 busripper-1.sym
+{
+T 42800 46800 5 8 0 0 0 0 1
+device=none
+}
+N 40800 46100 42800 46100 4
+{
+T 41600 46100 5 10 1 1 0 0 1
+netname=LCD_GRN7
+}
+C 42800 46100 1 270 0 busripper-1.sym
+{
+T 42800 46500 5 8 0 0 0 0 1
+device=none
+}
+N 40800 45600 42800 45600 4
+{
+T 41600 45600 5 10 1 1 0 0 1
+netname=LCD_BLU0
+}
+C 42800 45600 1 270 0 busripper-1.sym
+{
+T 42800 46000 5 8 0 0 0 0 1
+device=none
+}
+N 40800 45300 42800 45300 4
+{
+T 41600 45300 5 10 1 1 0 0 1
+netname=LCD_BLU1
+}
+C 42800 45300 1 270 0 busripper-1.sym
+{
+T 42800 45700 5 8 0 0 0 0 1
+device=none
+}
+N 40800 45000 42800 45000 4
+{
+T 41600 45000 5 10 1 1 0 0 1
+netname=LCD_BLU2
+}
+C 42800 45000 1 270 0 busripper-1.sym
+{
+T 42800 45400 5 8 0 0 0 0 1
+device=none
+}
+N 40800 44700 42800 44700 4
+{
+T 41600 44700 5 10 1 1 0 0 1
+netname=LCD_BLU3
+}
+C 42800 44700 1 270 0 busripper-1.sym
+{
+T 42800 45100 5 8 0 0 0 0 1
+device=none
+}
+N 40800 44400 42800 44400 4
+{
+T 41600 44400 5 10 1 1 0 0 1
+netname=LCD_BLU4
+}
+C 42800 44400 1 270 0 busripper-1.sym
+{
+T 42800 44800 5 8 0 0 0 0 1
+device=none
+}
+N 40800 44100 42800 44100 4
+{
+T 41600 44100 5 10 1 1 0 0 1
+netname=LCD_BLU5
+}
+C 42800 44100 1 270 0 busripper-1.sym
+{
+T 42800 44500 5 8 0 0 0 0 1
+device=none
+}
+N 40800 43800 42800 43800 4
+{
+T 41600 43800 5 10 1 1 0 0 1
+netname=LCD_BLU6
+}
+C 42800 43800 1 270 0 busripper-1.sym
+{
+T 42800 44200 5 8 0 0 0 0 1
+device=none
+}
+N 40800 43500 42800 43500 4
+{
+T 41600 43500 5 10 1 1 0 0 1
+netname=LCD_BLU7
+}
+C 42800 43500 1 270 0 busripper-1.sym
+{
+T 42800 43900 5 8 0 0 0 0 1
+device=none
+}
+N 40800 54000 51700 54000 4
+N 51700 54000 51700 51500 4
+C 50200 41600 1 0 0 MAX11800-1.sym
+{
+T 53100 43400 5 10 1 1 0 0 1
+refdes=U?
+T 51500 42600 5 10 0 1 0 0 1
+device=MAX11800
+}
+N 51300 44800 51300 43600 4
+N 51600 44800 51600 43600 4
+N 51900 44800 51900 43600 4
+N 52200 44800 52200 43600 4
+N 53700 42300 54400 42300 4
+N 53700 42600 54400 42600 4
+N 47700 42900 50200 42900 4
+N 47700 42600 50200 42600 4
+N 47700 42300 50200 42300 4
+C 52600 40800 1 0 0 gnd-1.sym
+N 52700 41100 52700 41600 4
